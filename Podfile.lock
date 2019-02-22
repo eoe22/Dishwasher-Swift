@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (4.7.3)
+  - RxCocoa (3.0.0):
+    - RxSwift (~> 3.0)
+  - RxSwift (3.0.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - Unbox (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - RxCocoa (~> 3.0)
+  - RxSwift (~> 3.0)
+  - SDWebImage
+  - Unbox
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - Unbox
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  RxCocoa: 0a2f3ae381cf16f4021a4cee7a4420f83058a965
+  RxSwift: a930cd662f5b4a7ca9dc3518585dba91dadf497c
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  Unbox: 9ed33b2a31f7a8a049f54b94d40c4a52a28c4d9d
+
+PODFILE CHECKSUM: 00ed60559c0deebc0c4c3f949d3c5f59812b872c
+
+COCOAPODS: 1.5.3

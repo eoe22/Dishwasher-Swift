@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0406B65E21ECFD5200F0747C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406B65D21ECFD5200F0747C /* DetailViewController.swift */; };
+		04115D8921E4FD7E004C697C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04115D8821E4FD7E004C697C /* ViewModel.swift */; };
+		048939D021DE5A2500BC3664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048939CF21DE5A2500BC3664 /* AppDelegate.swift */; };
+		048939D221DE5A2500BC3664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048939D121DE5A2500BC3664 /* ViewController.swift */; };
+		048939D521DE5A2500BC3664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048939D321DE5A2500BC3664 /* Main.storyboard */; };
+		048939D821DE5A2500BC3664 /* DishwasherSwift3App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 048939D621DE5A2500BC3664 /* DishwasherSwift3App.xcdatamodeld */; };
+		048939DA21DE5A2800BC3664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048939D921DE5A2800BC3664 /* Assets.xcassets */; };
+		048939DD21DE5A2800BC3664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048939DB21DE5A2800BC3664 /* LaunchScreen.storyboard */; };
+		048939E521DE648600BC3664 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048939E421DE648600BC3664 /* NetworkService.swift */; };
+		048939E721DE75E000BC3664 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048939E621DE75E000BC3664 /* Repository.swift */; };
+		04D2B05721E3AC140092F8D1 /* UsernamePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2B05621E3AC140092F8D1 /* UsernamePickerView.swift */; };
+		04D2B05921E3AC310092F8D1 /* UsernamePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D2B05821E3AC310092F8D1 /* UsernamePickerView.xib */; };
+		04EF176421DFBE0A002843E6 /* DishwasherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF176321DFBE0A002843E6 /* DishwasherCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0406B65D21ECFD5200F0747C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		04115D8821E4FD7E004C697C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		048939CC21DE5A2500BC3664 /* DishwasherSwift3App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DishwasherSwift3App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048939CF21DE5A2500BC3664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		048939D121DE5A2500BC3664 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		048939D421DE5A2500BC3664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048939D721DE5A2500BC3664 /* DishwasherSwift3App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DishwasherSwift3App.xcdatamodel; sourceTree = "<group>"; };
+		048939D921DE5A2800BC3664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048939DC21DE5A2800BC3664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048939DE21DE5A2800BC3664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048939E421DE648600BC3664 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		048939E621DE75E000BC3664 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		04D2B05621E3AC140092F8D1 /* UsernamePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernamePickerView.swift; sourceTree = "<group>"; };
+		04D2B05821E3AC310092F8D1 /* UsernamePickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsernamePickerView.xib; sourceTree = "<group>"; };
+		04EF176321DFBE0A002843E6 /* DishwasherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishwasherCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048939C921DE5A2500BC3664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048939C321DE5A2500BC3664 = {
+			isa = PBXGroup;
+			children = (
+				048939CE21DE5A2500BC3664 /* DishwasherSwift3App */,
+				048939CD21DE5A2500BC3664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048939CD21DE5A2500BC3664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048939CC21DE5A2500BC3664 /* DishwasherSwift3App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048939CE21DE5A2500BC3664 /* DishwasherSwift3App */ = {
+			isa = PBXGroup;
+			children = (
+				048939CF21DE5A2500BC3664 /* AppDelegate.swift */,
+				048939D121DE5A2500BC3664 /* ViewController.swift */,
+				048939D321DE5A2500BC3664 /* Main.storyboard */,
+				048939D921DE5A2800BC3664 /* Assets.xcassets */,
+				048939DB21DE5A2800BC3664 /* LaunchScreen.storyboard */,
+				048939DE21DE5A2800BC3664 /* Info.plist */,
+				048939D621DE5A2500BC3664 /* DishwasherSwift3App.xcdatamodeld */,
+				048939E421DE648600BC3664 /* NetworkService.swift */,
+				048939E621DE75E000BC3664 /* Repository.swift */,
+				04D2B05621E3AC140092F8D1 /* UsernamePickerView.swift */,
+				04EF176321DFBE0A002843E6 /* DishwasherCollectionViewCell.swift */,
+				04D2B05821E3AC310092F8D1 /* UsernamePickerView.xib */,
+				04115D8821E4FD7E004C697C /* ViewModel.swift */,
+				0406B65D21ECFD5200F0747C /* DetailViewController.swift */,
+			);
+			path = DishwasherSwift3App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048939CB21DE5A2500BC3664 /* DishwasherSwift3App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048939E121DE5A2800BC3664 /* Build configuration list for PBXNativeTarget "DishwasherSwift3App" */;
+			buildPhases = (
+				048939C821DE5A2500BC3664 /* Sources */,
+				048939C921DE5A2500BC3664 /* Frameworks */,
+				048939CA21DE5A2500BC3664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DishwasherSwift3App;
+			productName = DishwasherSwift3App;
+			productReference = 048939CC21DE5A2500BC3664 /* DishwasherSwift3App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048939C421DE5A2500BC3664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					048939CB21DE5A2500BC3664 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 048939C721DE5A2500BC3664 /* Build configuration list for PBXProject "DishwasherSwift3App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048939C321DE5A2500BC3664;
+			productRefGroup = 048939CD21DE5A2500BC3664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048939CB21DE5A2500BC3664 /* DishwasherSwift3App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048939CA21DE5A2500BC3664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D2B05921E3AC310092F8D1 /* UsernamePickerView.xib in Resources */,
+				048939DD21DE5A2800BC3664 /* LaunchScreen.storyboard in Resources */,
+				048939DA21DE5A2800BC3664 /* Assets.xcassets in Resources */,
+				048939D521DE5A2500BC3664 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048939C821DE5A2500BC3664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0406B65E21ECFD5200F0747C /* DetailViewController.swift in Sources */,
+				048939D221DE5A2500BC3664 /* ViewController.swift in Sources */,
+				048939E721DE75E000BC3664 /* Repository.swift in Sources */,
+				04D2B05721E3AC140092F8D1 /* UsernamePickerView.swift in Sources */,
+				04EF176421DFBE0A002843E6 /* DishwasherCollectionViewCell.swift in Sources */,
+				048939D021DE5A2500BC3664 /* AppDelegate.swift in Sources */,
+				048939E521DE648600BC3664 /* NetworkService.swift in Sources */,
+				04115D8921E4FD7E004C697C /* ViewModel.swift in Sources */,
+				048939D821DE5A2500BC3664 /* DishwasherSwift3App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		048939D321DE5A2500BC3664 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048939D421DE5A2500BC3664 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048939DB21DE5A2800BC3664 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048939DC21DE5A2800BC3664 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048939DF21DE5A2800BC3664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		048939E021DE5A2800BC3664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048939E221DE5A2800BC3664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DishwasherSwift3App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.DishwasherSwift3App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		048939E321DE5A2800BC3664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DishwasherSwift3App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.DishwasherSwift3App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048939C721DE5A2500BC3664 /* Build configuration list for PBXProject "DishwasherSwift3App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048939DF21DE5A2800BC3664 /* Debug */,
+				048939E021DE5A2800BC3664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048939E121DE5A2800BC3664 /* Build configuration list for PBXNativeTarget "DishwasherSwift3App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048939E221DE5A2800BC3664 /* Debug */,
+				048939E321DE5A2800BC3664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		048939D621DE5A2500BC3664 /* DishwasherSwift3App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				048939D721DE5A2500BC3664 /* DishwasherSwift3App.xcdatamodel */,
+			);
+			currentVersion = 048939D721DE5A2500BC3664 /* DishwasherSwift3App.xcdatamodel */;
+			path = DishwasherSwift3App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 048939C421DE5A2500BC3664 /* Project object */;
+}

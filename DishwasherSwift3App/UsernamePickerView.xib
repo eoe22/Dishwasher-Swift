@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UsernamePickerView" customModule="DishwasherSwift3App" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="07M-cS-9qT"/>
+                <outlet property="usernamePickerView" destination="N5Q-xR-lvy" id="bBs-Jr-neb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="216"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N5Q-xR-lvy">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="216"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="216" id="BAU-7c-t9x"/>
+                    </constraints>
+                </pickerView>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="N5Q-xR-lvy" secondAttribute="bottom" id="FnJ-yH-en5"/>
+                <constraint firstItem="N5Q-xR-lvy" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="dn8-CM-Gii"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="N5Q-xR-lvy" secondAttribute="trailing" id="o9J-yg-Aaw"/>
+                <constraint firstItem="N5Q-xR-lvy" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="vQe-qN-hC7"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-63.200000000000003" y="-32.383808095952027"/>
+        </view>
+    </objects>
+</document>
